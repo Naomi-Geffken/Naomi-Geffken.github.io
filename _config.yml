@@ -1,3 +1,5 @@
+name: Personal_webpage
+markdown: kramdown
 theme: jekyll-theme-slate
 title: welcome to this homepage!
 description: Feel free to follow along with the development of this page over the course of the second week of November, 2019.
