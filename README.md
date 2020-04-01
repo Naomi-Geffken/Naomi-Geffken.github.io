@@ -1,5 +1,14 @@
 ## Welcome to the boilerplate for computer coding
 
+### Active To Do:
+- Download Atom
+- Navigation Bar
+- CSS Padding
+
+### Completed to do:
+- Set-up Jekyll + Ruby locally
+
+
 reminder to myself how to use Markdown as I am still a noob.
 
 ### Markdown
