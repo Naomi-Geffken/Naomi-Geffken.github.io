@@ -3,28 +3,253 @@
 	<head>
 		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="/css/main.css">
+		<script async="" src="/js/base.min.js"></script>
 	</head>
+
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-			<li><a href="/project-demos">Project Demos</a></li>
-    		</ul>
-		</nav>
+		<div class="boston"></div>
+		<div id="prof-pic-wrap" class="">
+			<img id="prof-pic" src="/img/profile-picture.jpg" alt="Naomi Geffken">
+		</div> <!--- end of prof-pic-wrap--->
+		<header id="mainnav" class="centered-navigation" role="banner">
+			<div class="centered-navigation-wrapper">
+				<a  class="mobile-logo" href="javascript:void(0)">
+					<img src="/img/profile-picture.jpg" alt="Logo image">
+				</a>
+				<a id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu"  href="javascript:void(0)">MENU</a>
+				<nav role="navigation">
+					<ul id="js-centered-navigation-menu" class="centered-navigation-menu">
+						<li class="nav-link"><a href="#education">Education</a></li>
+						<li class="nav-link"><a href="#skillset">Skillset</a></li>
+						<li class="nav-link"><a href="#experience">Experience</a></li>
+						<li id="prof-pic-filler-li" class="nav-link">
+							<span id="prof-pic-filler" ></span>
+						</li>
+						<li class="nav-link"><a href="#projects">Projects</a></li>
+						<li class="nav-link"><a href="#awards">Awards</a></li>
+						<li class="nav-link"><a href="#publications">Current To-Do</a></li>
+					</ul>
+				</nav>
+			</div><!---end centered-navigation-wrapper--->
+		</header>
+		<div style="width: 1519.2px; height: 60.8px; float: none;"></div>
 		<div class="container">
-      
-    {{ content }}
-      
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:ngeffken@clarku.edu">email</a></li>
-        		<li><a href="https://github.com/Naomi-Geffken">github.com/Naomi-Geffken</a></li>
-			</ul>
-		</footer>
-	</body>
+			<div class="row row-centered">
+				<div class="col-md-9 col-centered">
+					<section id="name" class="print-header">
+						<div id="left">
+							<h1>Naomi Geffken</h1>
+							<address>Boston,MA</address>
+						</div>
+						<div id="right">
+							<p>naomigeffken@gmail.com (617)xxx-xxxx http://naomi-geffken.github.io</p>
+						</div>
+						<div class="clearfix"></div>
+						<hr>
+					</section>
+					<section id="name" class="one-pager-erase">
+						<h1>Naomi Geffken</h1>
+						<p class="subhead">[Content]</p>
+						<p>
+							<a href="/"https://github.com/Naomi-Geffken/>https://github.com/Naomi-Geffken</a>
+							 · 	Boston, MA  ·
+							<a href="mailto:naomigeffken@gmail.com">naomigeffken@gmail.com</a>
+						</p>
+						<p>
+							<a href="/resume.pdf" target="_blank">
+								1-page resume (PDF)
+								<i class="fa fa-file-pdf-o"></i>
+							</a>
+						</p>
+					</section>
+					<section id="education" class="row">
+						<div class="col-md-2">
+							<h2>Education</h2>
+						</div>
+						<div class="col-md-10 col-lg-9">
+							<h3 class="school">Clark University</h3>
+							<p class="location">Worcester, MA</p>
+							<div class="clearfix"></div>
+							<h4 class="degree">
+								Economics & Computer Science BA,
+								<small>GPA: X.XX</small>
+							</h4>
+							<p class="dates">Aug. 2017 - Expected May 2021</p>
+							<div class="clearfix"></div>
+							<div class="expander">
+								<a id="js-expander-trigger3" class="expander-trigger expander-hidden" href="javascript:void(0)">
+									Relevant Coursework
+								</a>
+								<div id="js-expander-content3" class="expander-content">
+									<ul class="nav nav-tabs" role="tablist" style="margin-bottom: 4px">
+										<li class="active" role="presentation">
+											<a class="cs" href="#31" aria-controls="31" role="tab" date-toggle="tab" aria-expanded="true">Computer Science</a>
+										</li>
+										<li class="" role="presentation">
+											<a class="stats" href="#32" aria-controls="32" role="tab" date-toggle="tab" aria-expanded="false">Math</a>
+										</li>
+										<li class="" role="presentation">
+											<a class="econ" href="#33" aria-controls="33" role="tab" date-toggle="tab" aria-expanded="false">Economics</a>
+										</li>
+									</ul>
+									<div class="tab-content">
+										<div id="31" class="tab-pane active" role="tabpanel">
+											<div id="accordian" class="panel-group" role="tablist"  aria-multiselectable="true">
+
+												<!--- First class--->
+												<div class="panel panel-default">
+													<div id="heading3103" class="panel-heading" role="tab">
+														<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian"
+														href="#collapse3103" aria-expanded="false" aria-controls="collapse3103">
+															<h4 class="panel-title">Algorithms</h4>
+														</a>
+														<div class="tags-wrap">
+															<span class="subject-tags cs">cs</span>
+														</div>
+														<div class="clearfix"></div>
+													</div>
+
+													<div id="collapse3103" class="panel-collapse collapse" role="tabpanel" aria-labelleddby="heading3103" aria-expanded="false">
+														<div class="panel-body">
+															This follow-on course to data structures (e.g., 605.202) provides a survey of computer algorithms, examines fundamental techniques in algorithm design and analysis, and develops problem-solving skills required in all programs of study involving computer science. Topics include advanced data structures (red-black and 2-3-4 trees, union-find), algorithm analysis and computational complexity (recurrence relations, big-O notation, introduction to NP-completeness), sorting and searching, design paradigms (divide and conquer, greedy heuristic, dynamic programming), and graph algorithms (depth-first and breadth-first search, minimum spanning trees,). Advanced topics are selected from among the following: multithreaded algorithms, matrix operations, linear programming, string matching, computational geometry, and approximation algorithms. The course will draw on applications from Bioinformatics.
+														</div>
+													</div>
+											 </div>
+
+											 <!--- Second class--->
+											 <div class="panel panel-default">
+												 <div id="heading3104" class="panel-heading" role="tab">
+													 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian"
+													 href="#collapse3104" aria-expanded="false" aria-controls="collapse3104">
+														 <h4 class="panel-title">Databases</h4>
+													 </a>
+													 <div class="tags-wrap">
+														 <span class="subject-tags cs">cs</span>
+													 </div>
+													 <div class="clearfix"></div>
+												 </div>
+												 <div id="collapse3104" class="panel-collapse collapse"
+												 role="tabpanel" aria-labelleddby="heading3104" aria-expanded="false">
+													 <div class="panel-bod">this is another class</div>
+												 </div>
+											 </div>
+										 </div> <!--- end of accordian --->
+									</div> <!--- end 31--->
+								</div> <!--- end tab-content--->
+						  </div> <!--- end js-expander-content3 --->
+					  </div> <!--- end of expander --->
+				  </div> <!--- end of col-md-10... --->
+				</section> <!--- end of education secction --->
+				<section id="experience" class="row">
+					<div class="col-md-2">
+						<h2>Experience</h2>
+					</div>
+				</section>
+
+				<section id="skillset" class="row">
+					<div class="col-md-2">
+						<h2>Skillset Overview</h2>
+					</div>
+					<div class="col-md-10 col-lg-9">
+						<ul>
+							<li><b>Languages</b> Python3, Java, SQL, C, JuliaLang, HTML, CSS, Ruby.</li>
+							<li><b>Statistical Tools</b> Stata, R, Excel.</li>
+							<li><b>Platforms</b> Linux (Ubuntu Desktop & Server), Windows, OS X.</li>
+							<li><b>Software</b> Git, MySQLWorkBench, MongoDB</li>
+						</ul>
+					</div> <!-- end of col-md-10-lg-9-->
+				</section>
+
+				<section id="awards" class="row">
+					<div class="col-md-2">
+						<h2>Awards & Certs</h2>
+					</div>
+					<div class="col-md-10 col-lg-9">
+						<ul>
+							<li>Amazon Data Science Specialization and Andrew Ng's Coursera</li>
+							<li>Hackathon Award</li>
+							<li>Another Hackathon Award</li>
+							<li>Clark Awards?</li>
+						</ul>
+					</div> <!--end of col-md-10...-->
+				</section>
+
+				<section id="projects" class="row one-pager-erase">
+					<div class="col-md-2">
+						<h2>Projects</h2>
+					</div>
+					<div class="col-md-10 col-lg-9">
+						<h4>Database Project</h4>
+						<p class="subhead">Doing fun stuff with minerals</p>
+						<p class="dates">Apr. 2020</p>
+						<div class="clearfix"></div>
+						<div class="expander">
+							<a id="js-expander-trigger97" class="expander-trigger expander-hidden" href="javascipt:void(0)">
+								Abstract
+							</a>
+							<div id="js-expander-content97" class="expander-content">
+								<p>Doing fun stuff with minerals and metals. a field dictionary for personal collections.</p>
+							</div><!--end of expander content-->
+						</div><!--end of expander-->
+						<h4>Project 2</h4>
+						<p class="subhead">Description of Project 2</p>
+						<p class="dates">Apr. 2020</p>
+						<div class="clearfix"></div>
+						<div class="expander">
+							<a id="js-expander-trigger98" class="expander-trigger expander-hidden" href="javascipt:void(0)">
+								Abstract
+							</a>
+							<div id="js-expander-content98" class="expander-content">
+								<p>This project was presented at 2019 Spree Day at Clark University. Doing fun stuff with minerals and metals. a field dictionary for personal collections.</p>
+							</div><!--end of expander content-->
+						</div><!--end of expander-->
+						<h4>Project 3</h4>
+						<p class="subhead">Another Description of another project</p>
+						<p class="dates">May 2018</p>
+						<div class="clearfix"></div>
+						<div class="expander">
+							<a id="js-expander-trigger99" class="expander-trigger expander-hidden" href="javascipt:void(0)">
+								Abstract
+							</a>
+							<div id="js-expander-content99" class="expander-content">
+								<p>An app for cars to encourage drivers to invest in green energy.</p>
+							</div><!--end of expander content-->
+						</div><!--end of expander-->
+					</div> <!--end of col-md-10...-->
+				</section>
+				<section id="publications" class="row one-pager-erase">
+					<div class="col-md-2">
+						<h2>To-Do List</h2>
+					</div>
+				</section>
+
+			</div> <!--- end of col-md-9 col-centered --->
+		</div> <!--- end of row row-centered --->
+	</div> <!--- end of container --->
+
+	<footer>
+		<div class="container">
+			<div class="row row-centered">
+				<div class="col-md-9 col-centered">
+		      <ul class="left-side">
+						<li>updated 2020</li>
+						<li><a target="_blank" href="/resume.pdf">1-page resume (PDF)<i class=fa fa-file-pdf-o></i></a>
+						<li><a href="mailto:ngeffken@clarku.edu">email</a></li>
+						<li>
+							<a target="_blank" href="https://www.linkedin.com/in/naomi-geffken/">
+							</a>
+
+						</li>
+					</ul>
+					<ul class="right-side">
+						<li><a href="#">Back to Top<i class="fa fa-caret-up"></i></a></li>
+					</ul>
+				</div> <!--- end of col-md-9.... --->
+		  </div> <!--- end of row row-centered --->
+		</div> <!--- end of container --->
+	</footer>
+ </body>
 </html>
